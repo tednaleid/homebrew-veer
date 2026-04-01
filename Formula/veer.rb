@@ -7,11 +7,11 @@ class Veer < Formula
   on_macos do
     on_arm do
       url "https://github.com/tednaleid/veer/releases/download/v#{version}/veer-aarch64-macos.tar.gz"
-      sha256 "cc0897d27635f0f95d2c44ee19711266895063e4f17f12cc512b58e79e6913d4"
+      sha256 "3b1874484c128598888a2a28740993fa7cef30306fca424deb73030bbe32cde3"
     end
     on_intel do
       url "https://github.com/tednaleid/veer/releases/download/v#{version}/veer-x86_64-macos.tar.gz"
-      sha256 "875243f34982190f9f0efc2fed21a4d21f148d2d4ec30920166be3ee06314e90"
+      sha256 "cebcd949ac963698d20e2dcf6caaad1a9c9fe01f92bfa1436bee9363a7e15716"
     end
   end
   on_linux do
