@@ -1,23 +1,23 @@
 class Veer < Formula
   desc "Claude Code hook that redirects tool calls toward safer alternatives"
   homepage "https://github.com/tednaleid/veer"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/tednaleid/veer/releases/download/v#{version}/veer-aarch64-macos.tar.gz"
-      sha256 "cfba6a3670c869dc96e7e36af73ac9624d67801ce74894b4b288a32e3494a9da"
+      sha256 "6e6472e2f71800faf298a1a97d3e75ebf605be37f324b5bafd54818a65a88287"
     end
     on_intel do
       url "https://github.com/tednaleid/veer/releases/download/v#{version}/veer-x86_64-macos.tar.gz"
-      sha256 "208d8225af0cfc48b6096477890740aa9f2ccf7d217e15ddde77ac1d5097b9cb"
+      sha256 "ad3a547251c330e43748e95021cccb09e88121f1f99da5845af7c56300cc6fe0"
     end
   end
   on_linux do
     on_intel do
       url "https://github.com/tednaleid/veer/releases/download/v#{version}/veer-x86_64-linux-musl.tar.gz"
-      sha256 "fd3464f2576de570670433c3eae5f3ebe80cbd29076a889fce97086151a39e10"
+      sha256 "3310d3ee86a3cf158c021cfd27b8a87a16eb7c998add26276ea0c6d65e201a0e"
     end
   end
 
